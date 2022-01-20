@@ -46,7 +46,12 @@ function PhotoCard(props) {
           image={url}
         />
       ) : (
-        <iframe width="100%" height="315" src={url}></iframe>
+        <iframe
+          title="youtube video"
+          width="100%"
+          height="315"
+          src={url}
+        ></iframe>
       )}
 
       <CardContent>

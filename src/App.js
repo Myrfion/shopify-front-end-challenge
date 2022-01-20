@@ -1,5 +1,4 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Header from "./components/Header"
 import Layout from "./hocs/Layout"
 
 import FavouritePage from "./pages/FavouritePage"
